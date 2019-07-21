@@ -1,0 +1,23 @@
+{
+  "name": "tinysnitch",
+  "version": "0.1.0",
+  "description": "A demonstration of Little Snitch-like tool on Linux",
+  "main": "tinysnitch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atsuya/tinysnitch.git"
+  },
+  "author": "Atsuya Takagi <atsuya.takagi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atsuya/tinysnitch/issues"
+  },
+  "homepage": "https://github.com/atsuya/tinysnitch#readme",
+  "devDependencies": {
+    "eslint": "6.0.1",
+    "eslint-config-google": "0.13.0"
+  }
+}
