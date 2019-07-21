@@ -13,7 +13,7 @@ class NetworkUtilities {
     const ips = []
 
     const networkInterfaces = os.networkInterfaces()
-    console.log(networkInterfaces)
+    //console.log(networkInterfaces)
     Object.keys(networkInterfaces).forEach((name) => {
       networkInterfaces[name].forEach((networkInterface) => {
         if (networkInterface.family === 'IPv4') {

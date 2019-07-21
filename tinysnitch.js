@@ -33,14 +33,14 @@ async function main() {
 
       const destinationIp = message.get('DST')
       if (localIps.includes(destinationIp)) {
-        console.log(`skipping: destination=${destinationIp}, ${localIps.join(',')}`)
+        //console.log(`skipping: destination=${destinationIp}, ${localIps.join(',')}`)
         return
       }
 
       const domains = await resolver.reverse(destinationIp)
       console.log(`${domains.join(',')} [${destinationIp}]`)
     } catch (exception) {
-      console.log(`Failed to parse: ${exception.message}`)
+      //console.log(`Failed to parse: ${exception.message}`)
     }
   })
 }
