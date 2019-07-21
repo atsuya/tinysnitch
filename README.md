@@ -1,5 +1,12 @@
 # tinysnitch
+
 A demonstration of Little Snitch-like tool for Linux.
+
+## assumptions
+
+- ufw is installed and enabled.
+- ufw logging is configured to `full`.
+- ufw logs can be retrieved by `journalctl`.
 
 ## how to run
 
